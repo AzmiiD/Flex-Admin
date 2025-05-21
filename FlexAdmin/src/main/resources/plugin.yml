@@ -1,0 +1,19 @@
+name: FlexAdmin
+version: '1.0-SNAPSHOT'
+main: io.github.AzmiiD.flexAdmin.FlexAdmin
+api-version: '1.21'
+authors: [ Azmii_ ]
+description: Make Easy Admin Cmd
+
+commands:
+  setwarp:
+    description: Set warp location
+    usage: /setwarp <name>
+
+  warp:
+    description: Teleport to warp
+    usage: /warp <name>
+
+  delwarp:
+    description: Remove Your Warp
+    usage: /delwarp <name>
